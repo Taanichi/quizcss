@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+body {
+	background-image:url("../backgame.jpg");
+	 background-size:  160%; 
+}
+.wakuwaku{
+	display: table;
+margin: 0 auto;
+margin-top:15px;
+}
+h1 {
+	color: #0ffb56;
+	text-shadow: 3px 3px 3px #ffffff;
+	font-size:60px;
+	font-family:"cursive";
+	 margin-top:15px;
+	 margin-bottom:0px;
+}
+
+h3{
+	font-size:30px;
+	margin-top:30px;
+	margin-bottom:15px;
+	margin-left:0px;
+	font-family:"cursive";
+	color:#ed8f52;
+	text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+              -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+              0px 1px 0 #FFF,  0-1px 0 #FFF,
+              -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+
+body {
+	text-align: center;
+}
+
+.main {
+	margin: 30px;
+	background-color: #00ff80;
+	padding: 15px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.check {
+	text-align: left;
+}
+
+#error {
+	color: red;
+	font-weight: bold;
+}
+
+#faa{
+	margin-top: 15px;
+	
+}
+
+#botan{
+	position: relative;
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #FFF;
+  background: #fd9535;/*色*/
+  border-radius: 4px;/*角の丸み*/
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+  font-weight: bold;
+  border: solid 2px #d27d00;/*線色*/
+  height:40px;
+  width:200px;
+}
+#botan:active {
+  /*押したとき*/
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+
+
+#buttons {
+	background-image: url("../kusa.png");
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #cafbce;
+    color: #0a8915;
+    margin: 2em 0;
+    padding: 2em;
+    margin-bottom:5px;
+    margin-top:0px;
+    width:500px;
+}
+
+.neko{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	margin-right:100px;
+  animation:jump 3s infinite;
+  -webkit-animation:jump 3s infinite;
+  -moz-animation:jump 3s infinite;
+}
+@keyframes jump{
+  0%{transform:translate(0,0px);}
+  3%{transform:translate(0,-20px);}
+  5%{transform:translate(0,0px);}
+  6%{transform:translate(0,-5px);}
+  7%{transform:translate(0,0px);}
+  100%{transform:translate(0,0px);}
+}
+@-webkit-keyframes jump{
+  0%{-webkit-transform:translate(0,0px);}
+  3%{-webkit-transform:translate(0,-20px);}
+  5%{-webkit-transform:translate(0,0px);}
+  6%{-webkit-transform:translate(0,-5px);}
+  7%{-webkit-transform:translate(0,0px);}
+  100%{-webkit-transform:translate(0,0px);}
+}
+@-moz-keyframes jump{
+  0%{-moz-transform:translate(0,0px);}
+  3%{-moz-transform:translate(0,-20px);}
+  5%{-moz-transform:translate(0,0px);}
+  6%{-moz-transform:translate(0,-5px);}
+  7%{-moz-transform:translate(0,0px);}
+  100%{-moz-transform:translate(0,0px);}
+}
+
+.neko1{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	animation:jump 4s infinite;
+  -webkit-animation:jump 4s infinite;
+  -moz-animation:jump 4s infinite;
+}
+@keyframes jump{
+  0%{transform:translate(0,0px);}
+  3%{transform:translate(0,-20px);}
+  5%{transform:translate(0,0px);}
+  6%{transform:translate(0,-5px);}
+  7%{transform:translate(0,0px);}
+  100%{transform:translate(0,0px);}
+}
+@-webkit-keyframes jump{
+  0%{-webkit-transform:translate(0,0px);}
+  3%{-webkit-transform:translate(0,-20px);}
+  5%{-webkit-transform:translate(0,0px);}
+  6%{-webkit-transform:translate(0,-5px);}
+  7%{-webkit-transform:translate(0,0px);}
+  100%{-webkit-transform:translate(0,0px);}
+}
+@-moz-keyframes jump{
+  0%{-moz-transform:translate(0,0px);}
+  3%{-moz-transform:translate(0,-20px);}
+  5%{-moz-transform:translate(0,0px);}
+  6%{-moz-transform:translate(0,-5px);}
+  7%{-moz-transform:translate(0,0px);}
+  100%{-moz-transform:translate(0,0px);}
+}
+
+.box16{
+	 padding: 0.5em 1em;
+    margin: 2em 0;
+    
+    margin-top:0px;
+    color: #474747;
+    background: #fcfacb;/*背景色*/
+    border-left: double 7px #654f34;/*左線*/
+    border-right: double 7px #654f34;/*右線*/
+}
+p{
+	font-size:30px;
+	margin:0px;
+	padding:0px;
+}
+
+
+#result {
+	font-size: 40px;
+	font-weight: bold;
+	color: red;
+}
